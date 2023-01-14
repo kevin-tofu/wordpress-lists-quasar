@@ -114,14 +114,12 @@
 
 <script>
 
-// const config = require('')
-import { config } from '../config.js'
 import { defineComponent, ref, onMounted, watch } from 'vue'
 import axios from 'axios'
 
 export default defineComponent({
 
-  name: 'ArticlePage',
+  name: 'WordpressList',
   components: {
   },
   
